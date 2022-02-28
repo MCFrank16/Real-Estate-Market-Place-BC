@@ -573,7 +573,7 @@ contract ERC721Enumerable is ERC165, ERC721 {
 
 contract ERC721Metadata is ERC721Enumerable, usingOraclize {
     // TODO: Create private vars for token _name, _symbol, and _baseTokenURI (string)
-    string private _token_name;
+    string private _name;
     string private _symbol;
     string private _baseTokenURI;
 
@@ -595,7 +595,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
         string memory baseTokenURI
     ) {
         // TODO: set instance var values
-        _token_name = name;
+        _name = name;
         _symbol = symbol;
         _baseTokenURI = baseTokenURI;
 
@@ -605,7 +605,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
     // TODO: create external getter functions for name, symbol, and baseTokenURI
 
     function getName() external view returns (string memory) {
-        return _token_name;
+        return _name;
     }
 
     function getSymbol() external view returns (string memory) {
