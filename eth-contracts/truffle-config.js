@@ -19,7 +19,7 @@
  */
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const infuraURL = 'https://rinkeby.infura.io/v3/0fee78afff3641b5bc7f92258f5aa5a5'
+const infuraURL = 'https://rinkeby.infura.io/v3/c89c7416d27b4fdcb76633d2776c5808'
 const fs = require('fs');
 const mnemonic = fs.readFileSync("../.env").toString().trim();
 

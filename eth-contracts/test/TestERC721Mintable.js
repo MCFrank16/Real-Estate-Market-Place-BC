@@ -10,7 +10,8 @@ contract('TestERC721Mintable', accounts => {
             this.contract = await ERC721MintableComplete.new({ from: account_one });
 
             // TODO: mint multiple tokens
-            await this.contract.mint(account_two, 4, { from: account_one });
+            const check = await this.contract.mint(account_two, 4, { from: account_one });
+            console.log(check, 'check this out')
             await this.contract.mint(account_one, 5, { from: account_one });
             await this.contract.mint(account_two, 6, { from: account_one });
             await this.contract.mint(account_one, 7, { from: account_one });

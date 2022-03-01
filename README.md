@@ -5,17 +5,25 @@ The capstone will build upon the knowledge you have gained in the course in orde
 ## Contract addresses on rinkeby test network and ABI
 #### 1. SquareVerifier 
 ```
-   > transaction hash:    0x2be73e8fb06dc5d2f82559cd15c387c12695777c6fa0753caea13ee8287b4d1a
-   > contract address:    0xc9516E6a7Ef53A8DeAA0F63E6c98FCA5FF879414
+   > transaction hash:    0xffcdc0d589219f5448f5ce35e29a4811e48bc5534321cd354ea1ee74ffca800b
+   > contract address:    0x7459Bf9837B15d419A01aB814dA3dce62174b1be
 ```
-[squareVerifierLink](https://rinkeby.etherscan.io/address/0xc9516E6a7Ef53A8DeAA0F63E6c98FCA5FF879414)
+[squareVerifierLink](https://rinkeby.etherscan.io/address/0x7459Bf9837B15d419A01aB814dA3dce62174b1be)
 #### 2. SolnSquareVerifier
 ```
-   > transaction hash:    0xd08e1189c35cec4f45a14df0f44afb17ca00c7483bf59b5c159dd869f55dd197
-   > contract address:    0xD9Da4a65EAD7c7C7357Ca2a28926b691312Ec1DE
+   > transaction hash:    0x180ca79a14cfc0e2829b56358a0bf55b271230b677ecdf93a30f3f5e36d249a1
+   > contract address:    0xC9A947c774D534d73Fb91A50F6f3fc8a4f05bfCe
 ```
-[SolnSquareVerifierLink](https://rinkeby.etherscan.io/address/0xD9Da4a65EAD7c7C7357Ca2a28926b691312Ec1DE)
+[SolnSquareVerifierLink](https://rinkeby.etherscan.io/address/0xC9A947c774D534d73Fb91A50F6f3fc8a4f05bfCe)
 
+#### OpenSea Marketplace Link
+[Market Place Link](https://testnets.opensea.io/collection/real-estate-marketplace-sqqlhl1dkg)
+
+#### Address used to buy some items
+```
+   > contract address: 0x3fbF021941c9E8F60D6AA46392eA31d41988741A
+
+```
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
